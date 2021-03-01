@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-weight: 100;
+}
+
+body {
+    font-family: 'ABCSynt-Regular-Trial', serif;
+}
+
+/* //////////////////////////////////// */
+/* //////////// @FONT-FACE //////////// */
+/* //////////////////////////////////// */
+
+@font-face {
+    font-family: 'ABCSynt-Regular-Trial';
+    src: url("../font/ABCSynt-Regular-Trial.otf");
+}
+
+@font-face {
+    font-family: 'ABCSynt-Italic-Trial';
+    src: url("../font/ABCSynt-Italic-Trial.otf");
+}
+
+@font-face {
+    font-family: 'ABCSynt-Turbo-Trial';
+    src: url("../font/ABCSynt-Turbo-Trial.otf");
+}
+
+@font-face {
+    font-family: 'ABCWhyteInktrap-Medium';
+    src: url("../font/ABCWhyteInktrap-Medium.otf");
+}
+
+/* //////////////////////////////////// */
+/* ////////////// GENERAL ///////////// */
+/* //////////////////////////////////// */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+h1 {
+    font-size: 7vw;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+h1:hover {
+    cursor: pointer;
+    font-family: 'ABCSynt-Turbo-Trial';
+}
+
+.projet p {
+    font-family: 'ABCSynt-Italic-Trial';
+    color: white;
+    padding-bottom: 0.4%;
+    position: absolute;
+    left: 60%;
+}
+
+
+
+/* //////////////////////////////////// */
+/* ////////////// CONTENU ///////////// */
+/* //////////////////////////////////// */
+
+#listeprojet {
+    background-color: black;
+}
+
+/* Forme du curseur au survol des div projet */
+.projet {
+    border-bottom: 4px solid white;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* images */
+#listeprojet img {
+    border: 4px solid white;
+    opacity: 0;
+    height: 350px;
+    position: absolute;
+    transition: opacity .5s ease-in;
+    transition: left .2s linear;
+    transition: top .2s linear;
+}
+
+/* //////////////////////////////////// */
+/* //////////////////////////////////// */
+
+/* //////////////////////////////////// */
+/* //////////// PAGE PROJET /////////// */
+/* //////////////////////////////////// */
+
+/* //////////////////////////////////// */
+/* //////////////////////////////////// */
+
+/* //////////////////////////////////// */
+/* /////////////// GRID /////////////// */
+/* //////////////////////////////////// */
+
+.container_12 {
+    width: 99.5%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    margin-bottom: 5%;
+}
+
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	display: flex;
+	float: left;
+	position: relative;
+	margin-left: 0.25%;
+	margin-right: 0.25%;
+    margin-bottom: 0.5%;
+}
+
+.container_12 .grid_1 {
+	width: 7.8333%;
+}
+
+.container_12 .grid_2 {
+	width: 16.1667%;
+}
+
+.container_12 .grid_3 {
+	width: 24.5%;
+}
+
+.container_12 .grid_4 {
+	width: 32.8333%;
+}
+
+.container_12 .grid_5 {
+	width: 41.166%;
+}
+
+.container_12 .grid_6 {
+	width: 49.5%;
+}
+
+.container_12 .grid_7 {
+	width: 57.8%;
+}
+
+.container_12 .grid_8 {
+	width: 66.1667%;
+}
+
+.container_12 .grid_9 {
+	width: 74.5%;
+}
+
+.container_12 .grid_10 {
+	width: 82.833%;
+}
+
+.container_12 .grid_11 {
+	width: 91.166%;
+}
+
+.container_12 .grid_12 {
+	width: 99.5%;
+}
+
+
+
+/* //////////////////////////////////// */
+/* ////////////// CONTENU ///////////// */
+/* //////////////////////////////////// */
+
+h2 {
+    font-family: 'ABCWhyteInktrap-Medium';
+    font-size: 6em;
+}
+
+#FR, #EN {
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+
+.container_12 img {
+    width: 100%;
+}
+

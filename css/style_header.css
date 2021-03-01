@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-weight: 100;
+}
+
+body {
+    font-family: 'ABCSynt-Regular-Trial', serif;
+}
+
+/* //////////////////////////////////// */
+/* //////////// @FONT-FACE //////////// */
+/* //////////////////////////////////// */
+
+@font-face {
+    font-family: 'ABCSynt-Regular-Trial';
+    src: url("../font/ABCSynt-Regular-Trial.otf");
+}
+
+@font-face {
+    font-family: 'ABCSynt-Italic-Trial';
+    src: url("../font/ABCSynt-Italic-Trial.otf");
+}
+
+@font-face {
+    font-family: 'ABCSynt-Turbo-Trial';
+    src: url("../font/ABCSynt-Turbo-Trial.otf");
+}
+
+@font-face {
+    font-family: 'ABCWhyteInktrap-Medium';
+    src: url("../font/ABCWhyteInktrap-Medium.otf");
+}
+/* //////////////////////////////////// */
+/* ////////////// HEADER ////////////// */
+/* //////////////////////////////////// */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    font-family: 'ABCSynt-Italic-Trial';
+    padding: 0.8%;
+    font-size: 1.3em;
+    border-bottom: 1px solid black;
+}
