@@ -43,12 +43,15 @@ a {
 
 #header {
     position: fixed;
+    left: 0;
+    top: 0;
     z-index: 1000;
     width: 100%;
     background-color: white;
     display: flex;
     font-family: 'ABCSynt-Italic-Trial';
-    padding: 0.8%;
-    font-size: 1.3em;
+    padding: 0.3em;
+    padding-left: 0.5em;
+    font-size: 1.1em;
     border-bottom: 1px solid black;
 }
