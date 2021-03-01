@@ -70,7 +70,7 @@ h1:hover {
 /* //////////////////////////////////// */
 
 #listeprojet {
-    background-color: yellow;
+    background-color: purple;
 }
 
 /* Forme du curseur au survol des div projet */
@@ -110,6 +110,7 @@ h1:hover {
     margin-left: 0.25%;
     margin-right: 0.25%;
     margin-bottom: 5%;
+    border: 1px solid red;
 }
 
 

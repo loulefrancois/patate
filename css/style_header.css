@@ -32,17 +32,19 @@ body {
     font-family: 'ABCWhyteInktrap-Medium';
     src: url("../font/ABCWhyteInktrap-Medium.otf");
 }
+
 /* //////////////////////////////////// */
 /* ////////////// HEADER ////////////// */
 /* //////////////////////////////////// */
 
-a {
+#header a {
     text-decoration: none;
     color: black;
 }
 
 #header {
-    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
     left: 0;
     top: 0;
     z-index: 1000;
