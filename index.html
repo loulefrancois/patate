@@ -13,6 +13,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_header.css" />
     <!-- JAVASCRIPT -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
     </script>
@@ -74,6 +75,10 @@
 
 <script type="text/javascript">
     $("#header").load("projets/header.html");
+    
+    var headerHeight = $("#header").outerHeight( true );
+   // $("#listeprojet").css("margin-top", headerHeight);
+
 </script>
 
 <script>
@@ -105,4 +110,6 @@
         });
     });
 
-</script></html>
+</script>
+
+</html>

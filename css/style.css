@@ -70,7 +70,8 @@ h1:hover {
 /* //////////////////////////////////// */
 
 #listeprojet {
-    background-color: purple;
+    background-color: black;
+    margin-top: 2.3em;
 }
 
 /* Forme du curseur au survol des div projet */
@@ -110,7 +111,7 @@ h1:hover {
     margin-left: 0.25%;
     margin-right: 0.25%;
     margin-bottom: 5%;
-    border: 1px solid red;
+    margin-top: 2.3em;
 }
 
 

@@ -1,53 +1,29 @@
-<!DOCTYPE html>
-
-<html lang="fr">
-<meta charset="utf-8" />
-
-<head>
-
-    <!-- Ce qui est écris sur l'onglet : -->
-    <title>header</title>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="../css/style_header.css" />
-
-    <!-- JAVASCRIPT -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
-    </script>
-
-</head>
-
-<body>
-
-    <!-- //////////////////////////////////// -->
-    <!-- ////////////// HEADER ////////////// -->
-    <!-- //////////////////////////////////// -->
-
-    <div id="header">
-
-        <p><a href="index.html">benoit guimier</a>_ graphic design_ <a href="mailto:guimierbenoit@gmail.com">guimierbenoit_ gmail.com</a>_+33(0)6 89 25 71 12</p>
-
-    </div>
+<ul>
+    <li><a href="#home">benoit guimier_</a></li>
+    <li><a href="#news">graphic design_</a></li>
+    <li><a href="#contact">guimierbenoit@gmail.com_</a></li>
+    <li><a>+33(0)6 89 25 71 12</a></li>
+    <li class="liright">
+        <a href="#about">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.17 52.17">
+                <path class="cls-1" d="M26.08,4A22.09,22.09,0,1,1,4,26.08,22.11,22.11,0,0,1,26.08,4m0-4A26.09,26.09,0,1,0,52.17,26.08,26.08,26.08,0,0,0,26.08,0Z" />
+                <path class="cls-1" d="M26.08,12.15A13.63,13.63,0,1,1,12.46,25.78,13.64,13.64,0,0,1,26.08,12.15m0-4A17.63,17.63,0,1,0,43.71,25.78,17.62,17.62,0,0,0,26.08,8.15Z" />
+                <path class="cls-1" d="M26.08,21.09a5,5,0,1,1-4.95,5,5,5,0,0,1,4.95-5m0-4a9,9,0,1,0,9,9,9,9,0,0,0-9-9Z" />
+            </svg>
+        </a>
+    </li>
+    <li class="liright">
+        <a href="#about">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+                <polygon class="cls-1" points="9.96 0 9.96 9.96 0 9.96 0 15.04 9.96 15.04 9.96 25 15.04 25 15.04 15.04 25 15.04 25 9.96 15.04 9.96 15.04 0 9.96 0" />
+            </svg>
+        </a>
+    </li>
+</ul>
 
 
-</body>
+<!--
+<p><a href="index.html">benoit guimier</a>_ graphic design_ <a href="mailto:guimierbenoit@gmail.com">guimierbenoit_ gmail.com</a>_+33(0)6 89 25 71 12</p>
 
-
-<!-- //////////////////////////////////// -->
-<!-- ////////////// SCRIPT ////////////// -->
-<!-- //////////////////////////////////// -->
-
-<script>
-    // Taille height et width de l'écran
-    var ecranHeight = $(window).height();
-    var ecranWidth = $(window).width();
-
-    // Taille automatique du groupe
-    $("#menu").css("height", ecranHeight);
-
-//    var headerHeight = $("#header").outerHeight(true) + 20 + "px";
-//    $(".container_12").css("margin-top", headerHeight);
-//    
-//    var headerHeight = $("#header").outerHeight(true) + 20 + "px";
-//    $("#listeprojet").css("margin-top", headerHeight);
-</script></html>
+<p id="droite">test</p>
+-->
