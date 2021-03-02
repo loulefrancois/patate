@@ -9,10 +9,6 @@ body {
     font-family: 'ABCSynt-Regular-Trial', serif;
 }
 
-svg {
-    fill: black;
-    height: 20px;
-}
 
 /* //////////////////////////////////// */
 /* //////////// @FONT-FACE //////////// */
@@ -52,17 +48,16 @@ svg {
     left: 0;
     top: 0;
     z-index: 1000;
-    width: 99vw;
+    width: 100%;
     background-color: white;
     font-family: 'ABCSynt-Italic-Trial';
+/*
     padding: 0.5vw;
     padding-left: 0.5vw;
+    padding-right: 5vw;
+*/
     font-size: 1.3em;
     border-bottom: 1px solid black;
-}
-
-#header img {
-    height: 1em;
 }
 
 ul {
@@ -72,10 +67,19 @@ ul {
     overflow: hidden;
 }
 
-li {
+ul li {
     float: left;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
 }
 
 #header .liright {
     float: right;
+    padding-bottom: 0vw;
+    
+}
+
+svg {
+    fill: black;
+    height: 24px;
 }
