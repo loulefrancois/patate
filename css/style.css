@@ -190,8 +190,9 @@ h1:hover {
 /* //////////////////////////////////// */
 
 h2 {
-    font-family: 'ABCWhyteInktrap-Medium';
+    font-family: 'ABCSynt-Italic-Trial';
     font-size: 6em;
+    padding: 1%;
 }
 
 #FR,
@@ -236,4 +237,48 @@ h2 {
 
 .container_12 img {
     width: 100%;
+}
+
+/* Portrait and Landscape */
+@media only screen and (max-device-width: 700px) {
+
+    /* //////////////////////////////////// */
+    /* ////////////// CONTENU ///////////// */
+    /* //////////////////////////////////// */
+
+    .grid_1,
+    .grid_2,
+    .grid_3,
+    .grid_4,
+    .grid_5,
+    .grid_6,
+    .grid_7,
+    .grid_8,
+    .grid_9,
+    .grid_10,
+    .grid_11,
+    .grid_12 {
+        display: flex;
+        float: left;
+        position: relative;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+    }
+
+    .container_12 .grid_1,
+    .container_12 .grid_2,
+    .container_12 .grid_3,
+    .container_12 .grid_4,
+    .container_12 .grid_5,
+    .container_12 .grid_6,
+    .container_12 .grid_7,
+    .container_12 .grid_8,
+    .container_12 .grid_9,
+    .container_12 .grid_10,
+    .container_12 .grid_11,
+    .container_12 .grid_12 {
+        width: 96%;
+    }
+
 }
