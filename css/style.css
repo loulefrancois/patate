@@ -258,9 +258,6 @@ h2 {
     .grid_10,
     .grid_11,
     .grid_12 {
-        display: flex;
-        float: left;
-        position: relative;
         margin-left: 2%;
         margin-right: 2%;
         margin-bottom: 2%;
@@ -279,6 +276,54 @@ h2 {
     .container_12 .grid_11,
     .container_12 .grid_12 {
         width: 96%;
+    }
+
+    h2 {
+        font-size: 5em;
+    }
+
+    #description_projet {
+        position: fixed;
+        z-index: -2
+    }
+    
+    #FR,
+    #EN {
+        font-size: 1.5em;
+        position: static;
+    }
+
+    #FR p:first-child,
+    #EN p:first-child {
+        margin-bottom: 25px;
+    }
+
+    #FR p:not(:first-child),
+    #EN p:not(:first-child) {
+        font-family: 'ABCSynt-Italic-Trial';
+    }
+
+    #EN {
+        right: 0%;
+    }
+
+    #FR {
+        right: 17.16667%;
+    }
+
+    #premierContainer .grid_8 h2 {
+        position: fixed;
+        z-index: 1000;
+    }
+
+    /**/
+
+    #secondContainer {
+        margin-top: 75%;
+    }
+
+    .container_12 img {
+        width: 100%;
     }
 
 }
