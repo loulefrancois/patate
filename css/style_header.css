@@ -15,7 +15,7 @@
     width: 100%;
     background-color: white;
     font-family: 'ABCSynt-Italic-Trial';
-/*
+    /*
     padding: 0.5vw;
     padding-left: 0.5vw;
     padding-right: 5vw;
@@ -40,10 +40,36 @@ ul li {
 #header .liright {
     float: right;
     padding-bottom: 0vw;
-    
+
 }
 
 svg {
     fill: black;
     height: 24px;
+}
+
+.sautLigneMobile {
+    display: none;
+}
+
+/* //////////////////////////////////// */
+/* //////////////////////////////////// */
+
+/* //////////////////////////////////// */
+/* /////////// MEDIA QUERIES ////////// */
+/* //////////////////////////////////// */
+
+/* Portrait and Landscape */
+@media only screen and (max-device-width: 700px) {
+
+    .sautLigneMobile {
+        display: none;
+    }
+    
+    ul li {
+        float: none;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+    }
+
 }

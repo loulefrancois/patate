@@ -12,7 +12,7 @@
     <meta property="og:image" content="https://www.memo-dg.fr/image/memo_image1.png" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style_general.css"/>
+    <link rel="stylesheet" href="css/style_general.css" />
     <link rel="stylesheet" href="css/style_index.css" />
     <link rel="stylesheet" href="css/style_header.css" />
     <!-- JAVASCRIPT -->
@@ -27,13 +27,13 @@
     <!-- //////////////////////////////////// -->
     <!-- ////////////// HEADER ////////////// -->
     <!-- //////////////////////////////////// -->
-    
+
     <div id="header"></div>
 
     <!-- //////////////////////////////////// -->
     <!-- ////////////// CONTENU ///////////// -->
     <!-- //////////////////////////////////// -->
-    
+
     <div id="listeprojet">
 
         <a href="projets/escalys.html">
@@ -75,41 +75,41 @@
 
 <script type="text/javascript">
     $("#header").load("header.html");
-    
-    var headerHeight = $("#header").outerHeight( true );
-   // $("#listeprojet").css("margin-top", headerHeight);
 
+    var headerHeight = $("#header").outerHeight(true);
+    // $("#listeprojet").css("margin-top", headerHeight);
 </script>
 
 <script>
-    $("h1").mouseover(function() {
-        $(this).parent().find("img").css({
-            "opacity": "1",
-            "transition": "opacity 0.2s ease-in-out"
-        });
-        $("img").not($(this).parent().find("img")).css({
-            "opacity": "0"
-        });
-    });
+    if ($(window).width() >= 1090) {
 
-    $("h1").mouseout(function() {
-        $(this).parent().find("img").css({
-            "opacity": "0"
+        $("h1").mouseover(function() {
+            $(this).parent().find("img").css({
+                "opacity": "1",
+                "transition": "opacity 0.2s ease-in-out"
+            });
+            $("img").not($(this).parent().find("img")).css({
+                "opacity": "0"
+            });
         });
 
-    });
+        $("h1").mouseout(function() {
+            $(this).parent().find("img").css({
+                "opacity": "0"
+            });
 
-    $(document).mousemove(function(e) {
-
-        var imagePositionX = e.pageX + 15;
-        var imagePositionY = e.pageY + 15;
-
-        $("img").css({
-            "left": imagePositionX,
-            "top": imagePositionY
         });
-    });
 
-</script>
+        $(document).mousemove(function(e) {
 
-</html>
+            var imagePositionX = e.pageX + 15;
+            var imagePositionY = e.pageY + 15;
+
+            $("img").css({
+                "left": imagePositionX,
+                "top": imagePositionY
+            });
+        });
+
+    };
+</script></html>
