@@ -1,0 +1,231 @@
+/* //////////////////////////////////// */
+/* ////////////// PROJET ////////////// */
+/* //////////////////////////////////// */
+
+/* //////////////////////////////////// */
+/* //////////////////////////////////// */
+
+/* //////////////////////////////////// */
+/* /////////////// GRID /////////////// */
+/* //////////////////////////////////// */
+
+.container_12 {
+    width: 99.5%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    margin-bottom: 5%;
+    margin-top: 2.3em;
+}
+
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+    display: flex;
+    float: left;
+    position: relative;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    margin-bottom: 0.5%;
+}
+
+.container_12 .grid_1 {
+    width: 7.8333%;
+}
+
+.container_12 .grid_2 {
+    width: 16.1667%;
+}
+
+.container_12 .grid_3 {
+    width: 24.5%;
+}
+
+.container_12 .grid_4 {
+    width: 32.8333%;
+}
+
+.container_12 .grid_5 {
+    width: 41.166%;
+}
+
+.container_12 .grid_6 {
+    width: 49.5%;
+}
+
+.container_12 .grid_7 {
+    width: 57.8%;
+}
+
+.container_12 .grid_8 {
+    width: 66.1667%;
+}
+
+.container_12 .grid_9 {
+    width: 74.5%;
+}
+
+.container_12 .grid_10 {
+    width: 82.833%;
+}
+
+.container_12 .grid_11 {
+    width: 91.166%;
+}
+
+.container_12 .grid_12 {
+    width: 99.5%;
+}
+
+/* //////////////////////////////////// */
+/* ////////////// CONTENU ///////////// */
+/* //////////////////////////////////// */
+
+h2 {
+    font-family: 'ABCSynt-Italic-Trial';
+    font-size: 8vw;
+    padding: 1%;
+}
+
+#FR,
+#EN {
+    font-size: 0.9em;
+    position: fixed;
+    padding-right: 10px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: inherit;
+    z-index: -2;
+}
+
+#FR p:first-child,
+#EN p:first-child {
+    margin-bottom: 15px;
+}
+
+#FR p:not(:first-child),
+#EN p:not(:first-child) {
+    font-family: 'ABCSynt-Italic-Trial';
+}
+
+#EN {
+    right: 0%;
+}
+
+#FR {
+    right: 17.16667%;
+}
+
+#premierContainer .grid_8 h2 {
+    position: fixed;
+    z-index: 1000;
+}
+
+
+#secondContainer {
+    background-color: white;
+}
+
+.container_12 img {
+    max-width: 100%;
+}
+
+
+/* //////////////////////////////////// */
+/* //////////////////////////////////// */
+
+/* //////////////////////////////////// */
+/* /////////// MEDIA QUERIES ////////// */
+/* //////////////////////////////////// */
+
+/* Portrait and Landscape */
+@media only screen and (max-device-width: 700px) {
+
+    .grid_1,
+    .grid_2,
+    .grid_3,
+    .grid_4,
+    .grid_5,
+    .grid_6,
+    .grid_7,
+    .grid_8,
+    .grid_9,
+    .grid_10,
+    .grid_11,
+    .grid_12 {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+    }
+
+    .container_12 .grid_1,
+    .container_12 .grid_2,
+    .container_12 .grid_3,
+    .container_12 .grid_4,
+    .container_12 .grid_5,
+    .container_12 .grid_6,
+    .container_12 .grid_7,
+    .container_12 .grid_8,
+    .container_12 .grid_9,
+    .container_12 .grid_10,
+    .container_12 .grid_11,
+    .container_12 .grid_12 {
+        width: 96%;
+    }
+
+    h2 {
+        font-size: 11vw;
+    }
+
+    #description_projet {
+        position: fixed;
+        z-index: -2
+    }
+
+    #FR,
+    #EN {
+        font-size: 1.5em;
+        position: static;
+    }
+
+    #FR p:first-child,
+    #EN p:first-child {
+        margin-bottom: 25px;
+    }
+
+    #FR p:not(:first-child),
+    #EN p:not(:first-child) {
+        font-family: 'ABCSynt-Italic-Trial';
+    }
+
+    #EN {
+        right: 0%;
+    }
+
+    #FR {
+        right: 17.16667%;
+    }
+
+    #premierContainer .grid_8 h2 {
+        position: fixed;
+        z-index: 1000;
+    }
+
+    /**/
+
+    #secondContainer {}
+
+    .container_12 img {
+        width: 100%;
+    }
+
+}
