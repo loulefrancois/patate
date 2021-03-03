@@ -150,6 +150,12 @@ h2 {
 /* Portrait and Landscape */
 @media only screen and (max-device-width: 700px) {
 
+    .container_12 {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
     .grid_1,
     .grid_2,
     .grid_3,
@@ -179,7 +185,7 @@ h2 {
     .container_12 .grid_10,
     .container_12 .grid_11,
     .container_12 .grid_12 {
-        width: 96%;
+        max-width: 96%;
     }
 
     h2 {
@@ -218,14 +224,6 @@ h2 {
     #premierContainer .grid_8 h2 {
         position: fixed;
         z-index: 1000;
-    }
-
-    /**/
-
-    #secondContainer {}
-
-    .container_12 img {
-        width: 100%;
     }
 
 }
