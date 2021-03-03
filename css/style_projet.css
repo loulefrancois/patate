@@ -141,7 +141,6 @@ h2 {
 
 .container_12 img {
     width: 100%;
-    overflow: hidden;
 }
 
 
@@ -190,6 +189,8 @@ h2 {
     .container_12 .grid_10,
     .container_12 .grid_11,
     .container_12 .grid_12 {
+        min-height: 0;
+        min-width: 0;
         width: 96%;
     }
 
