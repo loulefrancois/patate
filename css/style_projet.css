@@ -158,6 +158,8 @@ h2 {
         width: 96%;
         margin-left: 2%;
         margin-right: 2%;
+        min-height: 0;
+        min-width: 0;
     }
 
     .grid_1,
@@ -175,6 +177,8 @@ h2 {
         margin-left: 2%;
         margin-right: 2%;
         margin-bottom: 2%;
+        min-height: 0;
+        min-width: 0;
     }
 
     .container_12 .grid_1,
@@ -200,7 +204,7 @@ h2 {
 
     #description_projet {
         position: fixed;
-        z-index: -2
+        z-index: -2;
     }
 
     #FR,
