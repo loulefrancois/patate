@@ -136,7 +136,7 @@ h2 {
 }
 
 .container_12 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 
@@ -185,7 +185,7 @@ h2 {
     .container_12 .grid_10,
     .container_12 .grid_11,
     .container_12 .grid_12 {
-        max-width: 96%;
+        width: 96%;
     }
 
     h2 {
