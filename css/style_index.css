@@ -72,7 +72,7 @@ h1:hover {
     h1 {
         font-size: 10vw;
     }
-    
+
     h1,
     .projet p {
         padding-left: 0%;
@@ -87,6 +87,10 @@ h1:hover {
     .projet p {
         position: static;
         font-size: 3vw;
+    }
+
+    #listeprojet {
+        margin-top: 6.75em;
     }
 
 }

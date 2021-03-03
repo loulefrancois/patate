@@ -62,14 +62,30 @@ svg {
 /* Portrait and Landscape */
 @media only screen and (max-device-width: 700px) {
 
+    #header {
+        padding: 0.5em;
+    }
     .sautLigneMobile {
         display: none;
     }
-    
+
     ul li {
-        float: none;
         padding-top: 0.5vw;
         padding-bottom: 0.5vw;
+    }
+    
+    svg {
+        height: 1.2em;
+    }
+    
+    .liright {
+        position: fixed;
+        top: 2.2em;
+        right: 0.5em;
+    }
+    
+    ul li:last-child {
+        top: 0.5em;
     }
 
 }
