@@ -54,3 +54,38 @@ h1:hover {
     transition: left .2s linear;
     transition: top .2s linear;
 }
+
+/* //////////////////////////////////// */
+/* //////////////////////////////////// */
+
+/* //////////////////////////////////// */
+/* /////////// MEDIA QUERIES ////////// */
+/* //////////////////////////////////// */
+
+/* Portrait and Landscape */
+@media only screen and (max-device-width: 700px) {
+
+    .projet {
+        padding: 2%;
+    }
+
+    h1 {
+        font-size: 8vw;
+    }
+    
+    h1,
+    .projet p {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .projet {
+        border-bottom: 4px solid white;
+        display: block;
+    }
+
+    .projet p {
+        position: static;
+    }
+
+}
