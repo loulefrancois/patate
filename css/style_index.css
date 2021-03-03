@@ -70,7 +70,7 @@ h1:hover {
     }
 
     h1 {
-        font-size: 8vw;
+        font-size: 10vw;
     }
     
     h1,
@@ -86,6 +86,7 @@ h1:hover {
 
     .projet p {
         position: static;
+        font-size: 3vw;
     }
 
 }
