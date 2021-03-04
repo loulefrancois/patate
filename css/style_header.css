@@ -2,54 +2,32 @@
 /* ////////////// HEADER ////////////// */
 /* //////////////////////////////////// */
 
+#header {
+    font-family: 'ABCSynt-Italic-Trial';
+    font-size: 2em;
+    padding: 0.5em;
+    border-bottom: 1px solid black;
+}
+
 #header a {
     text-decoration: none;
     color: black;
 }
 
-#header {
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 1000;
-    width: 100%;
-    background-color: white;
-    font-family: 'ABCSynt-Italic-Trial';
-    /*
-    padding: 0.5vw;
-    padding-left: 0.5vw;
-    padding-right: 5vw;
-*/
-    font-size: 1.3em;
-    border-bottom: 1px solid black;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-ul li {
-    float: left;
-    padding-top: 0.5vw;
-    padding-bottom: 0.5vw;
-}
-
-#header .liright {
-    float: right;
-    padding-bottom: 0vw;
-
+#header a:hover {
+    opacity: 0.5;
 }
 
 svg {
-    fill: black;
-    height: 24px;
+    height: 1em;
 }
 
-.sautLigneMobile {
+.hidebr {
     display: none;
+}
+
+p {
+    display: inline;
 }
 
 /* //////////////////////////////////// */
@@ -60,32 +38,4 @@ svg {
 /* //////////////////////////////////// */
 
 /* Portrait and Landscape */
-@media only screen and (max-device-width: 700px) {
-
-    #header {
-        padding: 0.5em;
-    }
-    .sautLigneMobile {
-        display: block;
-    }
-
-    ul li {
-        padding-top: 0.5vw;
-        padding-bottom: 0.5vw;
-    }
-    
-    svg {
-        height: 1.2em;
-    }
-    
-    .liright {
-        position: fixed;
-        top: 2.2em;
-        right: 0.5em;
-    }
-    
-    ul li:last-child {
-        top: 0.5em;
-    }
-
-}
+@media only screen and (max-device-width: 700px) {}
