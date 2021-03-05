@@ -14,7 +14,6 @@
     margin-left: 0.25%;
     margin-right: 0.25%;
     margin-bottom: 5%;
-    margin-top: 2.3em;
 }
 
 
@@ -91,9 +90,10 @@
 /* //////////////////////////////////// */
 
 h2 {
-    font-family: 'ABCSynt-Italic-Trial';
-    font-size: 8vw;
+    font-family: 'ABCSynt-Turbo-Trial';
+    font-size: 7vw;
     padding: 1%;
+    letter-spacing: -0.015em;
 }
 
 #FR,
