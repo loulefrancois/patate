@@ -1,6 +1,6 @@
 $("#header").load("../header.html");
 
-
+$("#header").load("header.html");
 
 $(document).ready(function () {
     if ($(window).width() >= 1090) {
