@@ -76,7 +76,7 @@ h1:hover {
     }
 
     h1 {
-        font-size: 10vw;
+        font-size: 14vw;
     }
 
     .projet p {
@@ -85,6 +85,10 @@ h1:hover {
 
     #listeprojet {
         padding-top: 19.5vw;
+    }
+
+    #listeprojet img {
+        display: none;
     }
 
 }
