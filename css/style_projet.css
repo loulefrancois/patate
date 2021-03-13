@@ -16,7 +16,6 @@
     margin-bottom: 5%;
 }
 
-
 .grid_1,
 .grid_2,
 .grid_3,
@@ -29,12 +28,16 @@
 .grid_10,
 .grid_11,
 .grid_12 {
-    display: flex;
     float: left;
+    display: flex;
     position: relative;
     margin-left: 0.25%;
     margin-right: 0.25%;
-    margin-bottom: 0.5vw;
+    margin-bottom: 0.25%;
+}
+
+.grid_12#ligneblanche {
+    float: inherit;
 }
 
 .container_12 .grid_1 {
@@ -85,25 +88,43 @@
     width: 99.5%;
 }
 
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
 /* //////////////////////////////////// */
 /* ////////////// CONTENU ///////////// */
 /* //////////////////////////////////// */
 
 h2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px;
     font-family: 'ABCSynt-Turbo-Trial';
     font-size: 7vw;
-    padding: 1%;
+    padding: 2vw;
+    padding-left: 2vw;
     letter-spacing: -0.015em;
+    width: 63.5vw;
+    min-height: 18vw;
+    z-index: 1000;
 }
 
 #FR,
 #EN {
-    font-size: 0.9em;
+    font-size: 0.9vw;
     position: fixed;
+    width: 15%;
+    right: 5%;
+    top: 40px;
     padding-right: 10px;
     padding-top: 4%;
     padding-bottom: 4%;
-    display: inherit;
     z-index: -2;
 }
 
@@ -118,26 +139,29 @@ h2 {
 }
 
 #EN {
-    right: 0%;
+    right: 0.5%;
 }
 
 #FR {
     right: 17.16667%;
 }
 
-#premierContainer .grid_8 h2 {
-    position: fixed;
-    z-index: 1000;
+p {
+    display: flow;
 }
 
 
-#secondContainer {
+
+.container_12 {
     background-color: white;
 }
 
-.container_12 img {
+.container_12 img,
+.container_12 video {
     width: 100%;
 }
+
+
 
 
 /* //////////////////////////////////// */
@@ -148,7 +172,7 @@ h2 {
 /* //////////////////////////////////// */
 
 /* Portrait and Landscape */
-@media only screen and (max-device-width: 700px) {
+@media only screen and (max-device-width: 1089px) {
 
     .container_12 {
         width: 96%;
@@ -191,17 +215,24 @@ h2 {
     }
 
     h2 {
+        padding-top: 18vw;
         font-size: 11vw;
+        padding-left: 5vw;
+        padding-bottom: 10vw;
+        width: 90vw;
     }
 
     #description_projet {
-        position: fixed;
+        position: -webkit-sticky;
+        position: sticky;
         z-index: -2;
     }
 
     #FR,
     #EN {
-        font-size: 1.5em;
+        width: 91vw;
+        margin-left: 4vw;
+        font-size: 3.5vw;
         position: static;
     }
 
@@ -223,9 +254,6 @@ h2 {
         right: 17.16667%;
     }
 
-    #premierContainer .grid_8 h2 {
-        position: fixed;
-        z-index: 1000;
-    }
+
 
 }

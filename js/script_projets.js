@@ -52,11 +52,8 @@ $(document).ready(function () {
 $(document).ready(function () {
     if ($(window).width() <= 1089) {
 
-        var descriptionProjetMarginTop = $("#premierContainer .grid_8").outerHeight(true) + 120;
-
-        $("#description_projet").css("margin-top", descriptionProjetMarginTop);
-        $("#premierContainer .grid_8").outerHeight(true) + 80 + "px";
-        $("#secondContainer").css("margin-top", secondContainerMarginTop);
+        var DescriptionProjetTop = $("#description_projet").offset();
+        $("#description_projet").css("top", DescriptionProjetTop.top);
 
 
     }

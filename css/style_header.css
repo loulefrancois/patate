@@ -19,7 +19,7 @@
     position: fixed;
     width: 100%;
     z-index: 1000;
-    height: 50px;
+    height: 2.7vw;
 }
 
 #header a {
@@ -31,7 +31,7 @@
     display: none;
 }
 
-p {
+#header p {
     display: inline;
 }
 
@@ -94,4 +94,15 @@ svg:hover {
 /* //////////////////////////////////// */
 
 /* Portrait and Landscape */
-@media only screen and (max-device-width: 700px) {}
+@media only screen and (max-device-width: 700px) {
+
+    #header {
+        font-size: 4.5vw;
+        height: 18vw;
+    }
+
+    .hidebr {
+        display: block;
+    }
+
+}

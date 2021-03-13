@@ -6,7 +6,7 @@
 <head>
 
     <!-- ↓ -->
-    <!-- TITRE SUR L'ONGLET -->
+    <!-- TITRE PATATE SUR L'ONGLET -->
     <title></title>
 
     <!-- CSS -->
@@ -33,49 +33,70 @@
     <!-- ////////////// CONTENU ///////////// -->
     <!-- //////////////////////////////////// -->
 
-    <div class="container_12" id="premierContainer">
-
-        <div class="grid_8">
-            <!-- ↓ -->
-            <!-- TITRE PROJET -->
-            <h2>le projet au titre très long de guimier benoit.</h2>
-        </div>
-
-        <div id="description_projet">
-
-            <!-- ↓ -->
-            <!-- DESCRIPTION FR -->
-            <div class="grid_2" id="FR">
-                <p>FR le projet au titre très long de guimier benoit.le projet au titre très long de guimier benoit.le projet au titre très long de guimier benoit.le projet au titre très long de guimier benoit.le projet au titre très long de guimier benoit.le projet au titre très long de guimier benoit.le projet au titre très long de guimier benoit.le projet au titre très long de guimier benoit.le projet au titre très long de guimier benoit.</p>
-                <p>Commanditaire: </p>
-                <p>Année: </p>
-            </div>
-
-            <!-- ↓ -->
-            <!-- DESCRIPTION EN -->
-            <div class="grid_2" id="EN">
-                <p>EN </p>
-                <p>Commanditaire: </p>
-                <p>Année: </p>
-            </div>
-
-        </div>
-
-    </div>
-
     <!-- ↓ -->
-    <!-- IMAGES PROJET -->
-    <!-- C'est une grille de 12. Si tu met une image en grid_12 elle prend toute la largeur, grid_6 : la moitié... etc. -->
-    <div class="container_12" id="secondContainer">
+    <!-- TITRE PATATE SUR LA PAGE-->
+    <h2>Un titre patate un peu long voilà tout</h2>
 
-        <div class="grid_12">
-            <div>
-                <img src="../images/escalys1.jpg" alt="" />
-            </div>
+    <div id="description_projet">
+
+        <!-- ↓ -->
+        <!-- DESCRIPTION FR -->
+        <div id="FR">
+            <p>FR </p>
+            <p>Commanditaire&#8239;: </p>
+            <p>Année&#8239;: </p>
+        </div>
+
+        <!-- ↓ -->
+        <!-- DESCRIPTION EN -->
+        <div id="EN">
+            <p>EN </p>
+            <p>Commanditaire&#8239;: </p>
+            <p>Année&#8239;: </p>
         </div>
 
     </div>
 
-    <!-- ne rien mettre après -->
+
+        <!-- ↓ -->
+    <!-- IMAGES PROJET -->
+    <!-- C'est une grille de 12. Si tu met une image en grid_12 elle prend toute la largeur, grid_6 : la moitié... etc. (et une grid_8 ? bah 8 sur 12.)-->
+    <!-- pour sauter une ligne : <div class="clear></div> -->
+
+    <div class="container_12">
+
+        <!-- ↓ EX. VIDEO ↓ -->
+        <div class="grid_6">
+            <div>
+                <video source src="../videos/veloroute_1.mov" loop autoplay muted></video>
+            </div>
+        </div>
+
+        <!-- ↓ EX. IMAGE ↓ -->
+        <div class="grid_6">
+            <div>
+                <img src="../images/escalys4.jpg" alt="" />
+            </div>
+        </div>
+        <div class="grid_6">
+            <div>
+                <img src="../images/escalys4.jpg" alt="" />
+            </div>
+        </div>
+        <div class="grid_6">
+            <div>
+                <img src="../images/escalys4.jpg" alt="" />
+            </div>
+        </div>
+        
+        <div class="clear"></div>
+
+        <!-- ne pas toucher après cette ligne -->
+        <div class="grid_12" id="ligneblanche">
+
+        </div>
+
+    </div>
+
 </body>
 <script type="text/javascript" src="../js/script_projets.js"></script></html>
