@@ -72,11 +72,12 @@ h1:hover {
 @media only screen and (max-device-width: 700px) {
 
     .projet {
-        height: 11.3vw;
+        height: inherit;
     }
 
     h1 {
-        font-size: 14vw;
+        font-size: 15vw;
+        line-height: 15vw;
     }
 
     .projet p {
