@@ -99,15 +99,16 @@ svg:hover {
         position: fixed;
         top: 16.7vw;
         left: 1vw;
+        height: 6vw;
     }
-    
+
     #svgPlus {
-        left: 8vw;
+        left: 10vw;
     }
-    
+
     #header {
         font-size: 4.5vw;
-        height: 23vw;
+        height: 24.5vw;
     }
 
     .hidebr {
