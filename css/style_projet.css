@@ -112,7 +112,7 @@ h2 {
     letter-spacing: -0.015em;
     width: 63.5vw;
     min-height: 18vw;
-    z-index: 1000;
+    z-index: 100;
     line-height: 6.7vw;
 }
 
