@@ -95,9 +95,20 @@ svg:hover {
 /* Portrait and Landscape */
 @media only screen and (max-device-width: 700px) {
 
+    svg {
+        position: fixed;
+        top: 16.7vw;
+        left: 1vw;
+        height: 6vw;
+    }
+
+    #svgPlus {
+        left: 10vw;
+    }
+
     #header {
         font-size: 4.5vw;
-        height: 18vw;
+        height: 24.5vw;
     }
 
     .hidebr {

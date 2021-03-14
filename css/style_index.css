@@ -76,8 +76,11 @@ h1:hover {
     }
 
     h1 {
-        font-size: 15vw;
-        line-height: 15vw;
+        padding: 1vw;
+        padding-bottom: 2.3vw;
+        padding-left: 2vw;
+        font-size: 13.6vw;
+        line-height: 13vw;
     }
 
     .projet p {
@@ -85,7 +88,7 @@ h1:hover {
     }
 
     #listeprojet {
-        padding-top: 19.5vw;
+        padding-top: 26vw;
     }
 
     #listeprojet img {
