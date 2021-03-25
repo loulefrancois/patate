@@ -117,8 +117,9 @@ svg:hover {
 
     /* A PROPOS */
     #apropos {
-        top: 24.5vw;
-        width: 100vw;
+        right: 5vw;
+        top: 26.5vw;
+        width: 90vw;
     }
 
     #apropos p {
