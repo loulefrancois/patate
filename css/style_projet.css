@@ -102,11 +102,10 @@
 /* //////////////////////////////////// */
 
 h2 {
-    border: 1px solid red;
     position: -webkit-sticky;
     position: sticky;
     top: 30px;
-    font-family: 'ABCSynt-Turbo-Trial';
+    font-family: 'Synt-Turbo';
     font-size: 7vw;
     padding: 2vw;
     padding-left: 2vw;
@@ -119,7 +118,6 @@ h2 {
 
 #FR,
 #EN {
-    border: 1px solid red;
     font-size: 0.9vw;
     position: fixed;
     width: 15%;
@@ -138,7 +136,7 @@ h2 {
 
 #FR p:not(:first-child),
 #EN p:not(:first-child) {
-    font-family: 'ABCSynt-Italic-Trial';
+    font-family: 'Synt-Italic';
 }
 
 #EN {
@@ -246,7 +244,7 @@ p {
 
     #FR p:not(:first-child),
     #EN p:not(:first-child) {
-        font-family: 'ABCSynt-Italic-Trial';
+        font-family: 'Synt-Italic';
     }
 
     #EN {

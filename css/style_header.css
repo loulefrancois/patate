@@ -8,7 +8,7 @@
 /* //////////////////////////////////// */
 
 #header {
-    font-family: 'ABCSynt-Italic-Trial';
+    font-family: 'Synt-Italic';
     font-size: 2vw;
     padding: 0.1em;
     margin-right: 2em;
@@ -49,7 +49,7 @@ svg:hover {
 
 /* A PROPOS */
 #apropos {
-    font-family: 'ABCSynt-Regular-Trial';
+    font-family: 'Synt-Regular';
     display: none;
     position: fixed;
     top: 10%;

@@ -38,3 +38,22 @@ a:hover {
     font-family: 'ABCWhyteInktrap-Medium';
     src: url("../font/ABCWhyteInktrap-Medium.otf");
 }
+
+/* */
+@font-face {
+    font-family: 'Synt-Regular';
+    src: url("../font/EduSynt-Regular.woff2") format("woff2"),
+        url("../font/EduSynt-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Synt-Italic';
+    src: url("../font/EduSynt-Italic.woff2") format("woff2"),
+        url("../font/EduSynt-Italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Synt-Turbo';
+    src: url("../font/EduSynt-Turbo.woff2") format("woff2"),
+        url("../font/EduSynt-Turbo.woff") format("woff");
+}
