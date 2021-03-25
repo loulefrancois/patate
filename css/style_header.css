@@ -115,4 +115,23 @@ svg:hover {
         display: block;
     }
 
+    /* A PROPOS */
+    #apropos {
+        top: 24.5vw;
+        width: 100vw;
+    }
+
+    #apropos p {
+        font-size: 4.5vw;
+    }
+
+    #apropos svg {
+        width: 2vw;
+        height: 2vw;
+    }
+
+    #apropos svg:hover {
+        opacity: 1;
+    }
+
 }
