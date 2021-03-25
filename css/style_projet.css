@@ -216,21 +216,25 @@ p {
     }
 
     h2 {
-        padding-top: 18vw;
+        padding-top: 30vw;
         font-size: 11vw;
         padding-left: 5vw;
         padding-bottom: 10vw;
         width: 90vw;
+        min-height: 1vw;
+        line-height: inherit;
     }
 
     #description_projet {
         position: -webkit-sticky;
         position: sticky;
         z-index: -2;
+        top: inherit;
     }
 
     #FR,
     #EN {
+        top: inherit;
         width: 91vw;
         margin-left: 4vw;
         font-size: 3.5vw;
