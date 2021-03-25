@@ -19,11 +19,11 @@ h1 {
 
 h1:hover {
     cursor: pointer;
-    font-family: 'ABCSynt-Turbo-Trial';
+    font-family: 'Synt-Turbo';
 }
 
 .projet p {
-    font-family: 'ABCSynt-Italic-Trial';
+    font-family: 'Synt-Italic';
     color: white;
     padding-bottom: 0.4%;
     position: absolute;
