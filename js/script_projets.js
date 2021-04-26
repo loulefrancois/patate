@@ -74,8 +74,8 @@ $(document).ready(function () {
 
     } else {
         $("#listeprojet").css({
-            "margin-top": "26vw",
-            "background-color": "red"
+            "margin-top": "6.5vw",
+            "background-color": "none"
         });
         
         var DescriptionProjetTop = $("#description_projet").offset();
