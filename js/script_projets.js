@@ -73,11 +73,12 @@ $(document).ready(function () {
         });
 
     } else {
+        var headerHeight = $("#header").outerHeight(true);
         $("#listeprojet").css({
             "margin-top": "6.5vw",
             "background-color": "none"
         });
-        
+
         var DescriptionProjetTop = $("#description_projet").offset();
         $("#description_projet").css("top", DescriptionProjetTop.top);
 

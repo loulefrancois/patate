@@ -97,9 +97,9 @@ svg:hover {
 
     svg {
         position: fixed;
-        top: 16.7vw;
+        top: 28vw;
         left: 1vw;
-        height: 6vw;
+        height: 8vw;
     }
 
     #svgPlus {
@@ -108,7 +108,7 @@ svg:hover {
 
     #header {
         font-size: 4.5vw;
-        height: 24.5vw;
+        height: 38.5vw;
         z-index: -1;
         top: 0;
     }
