@@ -72,25 +72,15 @@ $(document).ready(function () {
             }
         });
 
-    };
-
-});
-
-
-$(document).ready(function () {
-    if ($(window).width() <= 1089) {
-
-        var DescriptionProjetTop = $("#description_projet").offset();
-        $("#description_projet").css("top", DescriptionProjetTop.top);
-
-        var headerHeight = $("#header").outerHeight(true);
+    } else {
         $("#listeprojet").css({
             "margin-top": "26vw",
             "background-color": "red"
         });
+        
+        var DescriptionProjetTop = $("#description_projet").offset();
+        $("#description_projet").css("top", DescriptionProjetTop.top);
 
-    }
+    };
+
 });
-
-
-// À Propos
