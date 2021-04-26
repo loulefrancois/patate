@@ -109,6 +109,8 @@ svg:hover {
     #header {
         font-size: 4.5vw;
         height: 24.5vw;
+        z-index: -1;
+        top: 0;
     }
 
     .hidebr {

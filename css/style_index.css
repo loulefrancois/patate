@@ -87,9 +87,7 @@ h1:hover {
         display: none;
     }
 
-    #listeprojet {
-        padding-top: 26vw;
-    }
+    #listeprojet {}
 
     #listeprojet img {
         display: none;

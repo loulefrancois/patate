@@ -55,11 +55,21 @@ $(document).ready(function () {
 
             var imagePositionX = e.pageX + 15;
             var imagePositionY = e.pageY + 15;
-
+            var bodyHeight = $("body").outerHeight(true);
+            var projetHeight = $(".projet").outerHeight(true);
+            var bodyHeightMoinsProjetHeight = bodyHeight - projetHeight;
             $("img").css({
                 "left": imagePositionX,
                 "top": imagePositionY
             });
+            if (pageX < bodyHeightMoinsProjetHeight) {
+
+            } else {
+                $("img").css({
+                    "left": imagePositionX,
+                    "top": imagePositionY
+                });
+            }
         });
 
     };
@@ -73,6 +83,11 @@ $(document).ready(function () {
         var DescriptionProjetTop = $("#description_projet").offset();
         $("#description_projet").css("top", DescriptionProjetTop.top);
 
+        var headerHeight = $("#header").outerHeight(true);
+        $("#listeprojet").css({
+            "margin-top": "26vw",
+            "background-color": "red"
+        });
 
     }
 });
