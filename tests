@@ -1,0 +1,19 @@
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        function myFunction() {
+            if (document.body.scrollTop > headerHeight || document.documentElement.scrollTop > headerHeight) {
+                var listeProjetID = document.getElementById("listeprojet");
+
+                listeProjetID.style.position = "fixed";
+                listeProjetID.style.top = "5px";
+                listeProjetID.style.overflow = "auto";
+                listeProjetID.style.height = "180vw";
+
+            } else {
+                
+                listeProjetID.style.position = "static";
+                
+            }
+        }

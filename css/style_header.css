@@ -85,6 +85,10 @@ svg:hover {
     opacity: 0.9;
 }
 
+#ligneInvisible {
+    display: none;
+}
+
 /* //////////////////////////////////// */
 /* //////////////////////////////////// */
 
@@ -107,10 +111,18 @@ svg:hover {
     }
 
     #header {
+        position: fixed;
+        z-index: -1;
         font-size: 4.5vw;
         height: 38.5vw;
-        z-index: -1;
         top: 0;
+    }
+    
+
+    #ligneInvisible {
+        display: block;
+        border: 0px solid red;
+        width: 1%;
     }
 
     .hidebr {
@@ -136,5 +148,6 @@ svg:hover {
     #apropos svg:hover {
         opacity: 1;
     }
+
 
 }

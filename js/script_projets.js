@@ -74,10 +74,13 @@ $(document).ready(function () {
 
     } else {
         var headerHeight = $("#header").outerHeight(true);
-        $("#listeprojet").css({
-            "margin-top": "6.5vw",
-            "background-color": "none"
+        $("#ligneInvisible").css({
+            "height": headerHeight
         });
+
+        // ZONE TEST
+
+        // PAS TOUCHE
 
         var DescriptionProjetTop = $("#description_projet").offset();
         $("#description_projet").css("top", DescriptionProjetTop.top);
@@ -85,3 +88,4 @@ $(document).ready(function () {
     };
 
 });
+
