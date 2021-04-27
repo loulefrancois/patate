@@ -44,6 +44,10 @@ h1:hover {
     align-items: flex-end;
 }
 
+#listeprojet {
+    margin-top: 0;
+}
+
 /* images */
 #listeprojet img {
     z-index: 900;
@@ -56,9 +60,7 @@ h1:hover {
     transition: top .2s linear;
 }
 
-#prenomNomMobile {
-    display: none;
-}
+
 
 /* //////////////////////////////////// */
 /* //////////////////////////////////// */
@@ -86,30 +88,11 @@ h1:hover {
         display: none;
     }
 
-
     #listeprojet img {
         display: none;
     }
 
-    #prenomNomMobile {
-        background-color: blue;
-        font-family: 'Synt-Italic';
-        font-size: 4.5vw;
-        position: fixed;
-        z-index: 4000;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-        display: block;
-        left: 0;
-        top: 0;
-        padding: 0.1em;
-        padding-left: 0.5em;
-    }
-
-    #prenomNomMobile a {
-        color: white;
-    }
+    
 
 
 }

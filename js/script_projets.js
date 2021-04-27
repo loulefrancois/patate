@@ -2,6 +2,8 @@ $("#header").load("../header.html");
 
 $("#header").load("header.html");
 
+
+
 $(document).ready(function () {
     if ($(window).width() >= 1090) {
 
@@ -73,19 +75,17 @@ $(document).ready(function () {
         });
 
     } else {
+
+
         var headerHeight = $("#header").outerHeight(true);
-        $("#ligneInvisible").css({
-            "height": headerHeight
-        });
 
-        // ZONE TEST
-
-        // PAS TOUCHE
-
+$("#listeprojet").css({
+    "margin-top": headerHeight
+});
+        
         var DescriptionProjetTop = $("#description_projet").offset();
         $("#description_projet").css("top", DescriptionProjetTop.top);
 
     };
 
 });
-

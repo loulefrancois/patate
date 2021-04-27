@@ -89,6 +89,10 @@ svg:hover {
     display: none;
 }
 
+#prenomNomMobile {
+    display: none;
+}
+
 /* //////////////////////////////////// */
 /* //////////////////////////////////// */
 
@@ -147,6 +151,27 @@ svg:hover {
 
     #apropos svg:hover {
         opacity: 1;
+    }
+    
+    #prenomNomMobile {
+        background-color: blue;
+        font-family: 'Synt-Italic';
+        font-size: 4.5vw;
+        position: fixed;
+        z-index: 4000;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: block;
+        left: 0;
+        top: 0;
+        padding: 0.1em;
+        padding-left: 0.5em;
+    }
+
+    #prenomNomMobile a {
+        color: white;
+        text-decoration: none;
     }
 
 
